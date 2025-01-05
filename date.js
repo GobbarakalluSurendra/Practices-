@@ -1,0 +1,7 @@
+var da=new Date()
+console.log(da)
+console.log(da.getDate())
+console.log(da.getMinutes())
+console.log(da.getUTCSeconds())
+console.log(da.getDay())
+console.log(da.getHours())
