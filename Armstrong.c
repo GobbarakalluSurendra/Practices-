@@ -13,6 +13,6 @@ int main(){
     if(res==n)
     printf("given number is Armstrong %d",n);
     else
-    printf("given number is not Armstrong %d",n);
+    printf("not Armstrong %d",n);
 
 }
