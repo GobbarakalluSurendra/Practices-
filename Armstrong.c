@@ -4,11 +4,11 @@ int main(){
     int res=0;
     printf("enter the number");
     scanf("%d",&n);
-    int m=n;
-    while(m!=0){
-       int rem=m%10;
+    int s=n;
+    while(s!=0){
+       int rem=s%10;
      res +=rem * rem * rem*rem;
-        m=m/10;
+        s=s/10;
     }
     if(res==n)
     printf("given number is Armstrong %d",n);
