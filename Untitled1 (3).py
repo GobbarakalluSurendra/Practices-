@@ -88,7 +88,7 @@ def stream_data_pipeline():
             time.sleep(2)
     except KeyboardInterrupt:
         print("\nStreaming pipeline stopped.")
-        logging.info("Streaming pipeline stopped.")
+        logging.info(" pipeline stopped.")
 
 if __name__ == "__main__":
     stream_data_pipeline()
