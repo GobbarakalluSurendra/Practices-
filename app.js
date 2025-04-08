@@ -11,7 +11,7 @@ const firstmiddleware=((req,res,next)=>{
         next()
     }
     else{
-        console.log("sorry you are not allowed")
+        console.log("you are not allowed")
     }
 })
 const secondmiddleware=((req,res,next)=>{
