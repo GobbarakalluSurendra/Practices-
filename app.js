@@ -2,7 +2,7 @@ const express=require("express")
 const app=express()
 const port=5000
 app.get('/apple',(req,res)=>{
-    res.send("Apple is red in color")
+    res.send("APPLE IS RED IN COLOR")
 })
 
 ///roust concept
