@@ -20,5 +20,5 @@ app.get('/user/:id', (req, res) => { // Note the correction here
 });
 
 app.listen(port, () => {
-    console.log("Server started and running successfully");
+    console.log("Server IS started and running successfully");
 });
