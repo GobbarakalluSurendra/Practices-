@@ -10,7 +10,7 @@ function fn( a)
 {
     console.log(a)
 }
-fn("surendra")
+fn("SURENDRA ")
 
 
 
