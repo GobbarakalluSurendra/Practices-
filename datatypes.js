@@ -3,7 +3,7 @@ let b="sure"
 e=19.33
 console.log(a+e+b)
 console.log(a)
-console.log(c)
+console.log(b)
 c=12
 console.log(a+c+b)
 var d=true
