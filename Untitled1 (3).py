@@ -12,19 +12,16 @@ from sqlalchemy import create_engine
 import logging
 
 
-# In[2]:
 
 
 logging.basicConfig(filename='streaming_heart_disease.log', level=logging.INFO, format='%(asctime)s - %(message)s')
 
 
-# In[3]:
 
 
 engine = create_engine('sqlite:///heart_disease_stream.db')
 
 
-# In[4]:
 
 
 feature_ranges = {
