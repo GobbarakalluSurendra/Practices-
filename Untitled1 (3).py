@@ -33,7 +33,6 @@ feature_ranges = {
 }
 
 
-# In[5]:
 
 
 def generate_streaming_data():
