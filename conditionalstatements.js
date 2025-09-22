@@ -1,4 +1,4 @@
-a=210, b=100, c=-23
+a=210, b=100
 if(a>b)
     console.log("a is bigger")
 else if(a>c)
@@ -15,4 +15,5 @@ else
         case 20:console.log("value is 20") 
             break 
         default : console.log("entry valid choice")      
+
     }
