@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>Registration Form</h3>
+
+Name: <input id="name"><br><br>
+Mobile: <input id="mobile"><br><br>
+Email: <input id="email"><br><br>
+
+<button onclick="validate()">Register</button>
+
+<script>
+function validate() {
+
+  let name = document.getElementById("name").value;
+  let mobile = document.getElementById("mobile").value;
+  let email = document.getElementById("email").value;
+
+  if (name.length < 6) {
+    alert("Name must be at least 6 characters");
+    return;
+  }
+
+  if (mobile.length != 10 || isNaN(mobile)) {
+    alert("Mobile must be 10 digits only");
+    return;
+  }
+
+  if (!email.includes("@") || !email.includes(".")) {
+    alert("Invalid Email Format");
+    return;
+  }
+
+  alert("Registration Successful!");
+}
+</script>
+
+</body>
+</html>
